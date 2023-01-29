@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import {Examp_Result} from './MyFunction/Utility'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <div>
+    <Examp_Result ></Examp_Result>
+        </div>
   </React.StrictMode>
 );
 

@@ -4,12 +4,21 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {Examp_Result} from './MyFunction/Utility'
+import {Simple,Var_function,Use_varfunction,Get_value,Use_child} from "./MyFunction/Function_type"
+import User_info from "./MyFunction/Property_type"
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <div>
-    <Examp_Result ></Examp_Result>
-        </div>
+      <Examp_Result/>
+       <Simple/> 
+      <Var_function/>
+      <Use_varfunction/>
+      <Use_child></Use_child>
+     <Get_value your_name="mohammad reza"/>
+     <User_info _name="mohammad " _last_name="rostami" _age="25"></User_info>
+
+    </div>
   </React.StrictMode>
 );
 
